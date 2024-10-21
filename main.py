@@ -3,7 +3,7 @@ from oopimplementation import BsOption
 
 app= Flask(__name__)
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 
 def index():
     if request.method == 'POST':
