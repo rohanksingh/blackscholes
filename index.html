@@ -61,9 +61,10 @@
             <input type="submit" value="Calculate">
         </form>
     
-    <h1>Option Prices</h1>
-    
+        {% if option_prices %}
         <h2>Option Price: {{ option_prices }}</h2>
+        {% endif %}
+    </div>
 
     
 </body>
